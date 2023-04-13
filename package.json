@@ -1,5 +1,5 @@
 {
-  "name": "cc-graph",
+  "name": "@syntsugar/cc-graph",
   "version": "0.1.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

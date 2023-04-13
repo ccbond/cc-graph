@@ -10,7 +10,7 @@ Data Structure Serial -  Graph
 ### Node.js / Browserify
 
 ```bash
-npm install cc-graph --save
+npm install @syntsugar/cc-graph --save
 ```
 
 ```javascript
