@@ -413,7 +413,6 @@ export class Graph {
 
       // 查看 mainStack 栈顶元素
       const peekNode = mainStack.peek;
-      debugger;
       // 检查该元素是否是目标节点，则当前 mainStack 就是一条路径
       if (peekNode === target) {
         yield mainStack.toArray();

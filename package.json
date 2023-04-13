@@ -1,15 +1,15 @@
 {
-  "name": "ss-graph",
+  "name": "cc-graph",
   "version": "0.1.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "typings": "dist/index.d.ts",
-  "author": "boycgit",
+  "author": "ccbond",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boycgit/ss-graph.git"
+    "url": "git+https://github.com/ccbond/cc-graph"
   },
   "size-limit": [
     {
@@ -20,9 +20,8 @@
   "scripts": {
     "size": "./node_modules/.bin/size-limit",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
-    "quick-build": "tsc --pretty",
     "small-build": "node scripts/build.js && npm run rollup",
-    "build": "npm run quick-build && npm run small-build",
+    "build": "npm run small-build",
     "rollup": "./node_modules/.bin/rollup --config rollup.config.production.js",
     "watch": "tsc -w",
     "test": "./node_modules/.bin/jest && npm run size",

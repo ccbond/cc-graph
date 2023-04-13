@@ -1,4 +1,4 @@
-export function invariant(check: boolean, message: string, scope = 'ss-graph') {
+export function invariant(check: boolean, message: string, scope = 'cc-graph') {
     if (!check) {
         throw new Error(
             `${scope ? '[' + scope + ']' : ''} Invariant failed: ${message}`
